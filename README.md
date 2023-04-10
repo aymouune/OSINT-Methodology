@@ -2,6 +2,19 @@
 
 This repository contains an OSINT methodology for conducting investigations on a company. The following steps can be used to gather information about a company:
 
+1. **General Information:** Search for any information related to the target company.
+
+    a. Search Engine Operators:
+      [Google](https://www.google.com)
+      [Duckduckgo](http://duckduckgo.com/)
+      [Bing](http://bing.com/)
+      [Yandex](http://yandex.com/)
+      [Baidu](http://baidu.com/)
+    
+    b. Advanced Search with Google:
+      
+
+
 1. **Company's subsidiaries:** Check news and articles for acquisitions and mergers using `dnb Business Directory`.
 2. **Company's domains:** Use `SEO Domain Finder` and `Reverse IP Lookup` to find the company's domains.
 3. **Company's subdomains:** Use `Sublist3r`, `Amass`, `Security Trails`, `PureDNS`, `Wayback Machine`, and `Certificate-based Censys search` to find the company's subdomains.
