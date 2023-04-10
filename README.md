@@ -25,7 +25,14 @@ This repository contains an OSINT methodology for conducting investigations on a
     
     site:company.com -www
     
-3. **Company's subdomains:** Use `Sublist3r`, `Amass`, `Security Trails`, `PureDNS`, `Wayback Machine`, and `Certificate-based Censys search` to find the company's subdomains.
+3. **Company's subdomains:** Use `Sublist3r`, `Amass`, `Security Trails`, `PureDNS`, `Wayback Machine`, and `Certificate-based Censys search` to find the company's subdomains:
+
+    [Securitytrails](https://securitytrails.com/)
+    
+    [Wayback Machine](http://web.archive.org/)
+    
+    [Censys](https://search.censys.io/)
+
 5. **Potentially malicious similar domains:** Use `Red Flags Github` to confirm any potentially malicious similar domains, manually confirm them, and use `Virustotal` and `Wayback Machine` to gather more information.
 6. **Retrieving IPs:** Use `nslookup/dig` on the subdomains (domains and subdomains) + ASN -> IP addresses to retrieve IPs. Note that they do not 100% belong to the company and may need further confirmation.
 7. **Retrieving technologies:** Use `webtech` to retrieve technologies such as CMS.
