@@ -12,10 +12,11 @@ This repository contains an OSINT methodology for conducting investigations on a
       [Baidu](http://baidu.com/)
     
     b. Advanced Search with Google:
+      [Google](https://www.google.com/advanced_search)
       
+    c. Search for acquisitions and mergers in articles and news using `dnb Business Directory`. 
+        [D&B](https://www.dnb.com/)
 
-
-1. **Company's subsidiaries:** Check news and articles for acquisitions and mergers using `dnb Business Directory`.
 2. **Company's domains:** Use `SEO Domain Finder` and `Reverse IP Lookup` to find the company's domains.
 3. **Company's subdomains:** Use `Sublist3r`, `Amass`, `Security Trails`, `PureDNS`, `Wayback Machine`, and `Certificate-based Censys search` to find the company's subdomains.
 4. **Potentially malicious similar domains:** Use `Red Flags Github` to confirm any potentially malicious similar domains, manually confirm them, and use `Virustotal` and `Wayback Machine` to gather more information.
