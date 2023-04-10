@@ -32,9 +32,15 @@ This repository contains an OSINT methodology for conducting investigations on a
     [Wayback Machine](http://web.archive.org/)
     
     [Censys](https://search.censys.io/)
+    
+    [Builtwith](https://builtwith.com/)
+    
+    [crt.sh](https://crt.sh/)
+    
+    [pentest-tools](https://pentest-tools.com/)
 
-5. **Potentially malicious similar domains:** Use `Red Flags Github` to confirm any potentially malicious similar domains, manually confirm them, and use `Virustotal` and `Wayback Machine` to gather more information.
-6. **Retrieving IPs:** Use `nslookup/dig` on the subdomains (domains and subdomains) + ASN -> IP addresses to retrieve IPs. Note that they do not 100% belong to the company and may need further confirmation.
+4. **Potentially malicious similar domains:** Use `Red Flags Github` to confirm any potentially malicious similar domains, manually confirm them, and use `Virustotal` and `Wayback Machine` to gather more information.
+5. **Retrieving IPs:** Use `nslookup/dig` on the subdomains (domains and subdomains) + ASN -> IP addresses to retrieve IPs. Note that they do not 100% belong to the company and may need further confirmation.
 7. **Retrieving technologies:** Use `webtech` to retrieve technologies such as CMS.
 8. **Manually check the subdomains:** Visit the subdomains manually to gather more information.
 9. **Gathering employees information:** Use `linkedin2username`, `LinkedInt`, `CrossLinked`, `Uhoh365`, and `Apollo tool` to gather employees' names, positions, profile pictures, emails, etc.
