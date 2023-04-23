@@ -111,11 +111,11 @@ This repository contains an OSINT methodology for conducting investigations on a
 
     [Uhoh365](https://github.com/Raikia/UhOh365) : A script that can see if an email address is valid in Office365. This does not perform any login attempts, is unthrottled, and is incredibly useful for social engineering assessments to find which emails exist and which don't.
 
-    **PowerShell library AADInternals:**
+    [PowerShell library AADInternals](https://aadinternals.com/)
     
-    **For one user :** `Invoke-AADIntUserEnumerationAsOutsider -UserName "user@company.com"`
+    - **For one user :** `Invoke-AADIntUserEnumerationAsOutsider -UserName "user@company.com"`
 
-    **For list of users :** `Get-Content .\users.txt | Invoke-AADIntUserEnumerationAsOutsider -Method Normal` 
+    - **For list of users :** `Get-Content .\users.txt | Invoke-AADIntUserEnumerationAsOutsider -Method Normal` 
 
       
     D. Gathering employees' Accounts :
