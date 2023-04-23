@@ -5,10 +5,15 @@ This repository contains an OSINT methodology for conducting investigations on a
 1. **General Information:** Search for any information related to the target company.
 
     a. Search Engine Operators:
+      
       [Google](https://www.google.com)
+      
       [Duckduckgo](http://duckduckgo.com/)
+      
       [Bing](http://bing.com/)
+      
       [Yandex](http://yandex.com/)
+      
       [Baidu](http://baidu.com/)
     
     b. Advanced Search with Google:
@@ -32,7 +37,7 @@ This repository contains an OSINT methodology for conducting investigations on a
 
     [Centralops](https://centralops.net/co/)
 
-    site:company.com -www
+    site:company.com -www (google advanced search operators)
     
 3. **Company's subdomains:** Use `Sublist3r`, `Amass`, `Security Trails`, `PureDNS`, `Wayback Machine`, and `Certificate-based Censys search` to find the company's subdomains:
 
@@ -151,7 +156,20 @@ This repository contains an OSINT methodology for conducting investigations on a
     
     
 10. **Shodan and Censys results:** Use `metabigor` to gather results from `Shodan` and `Censys API (Python)`.
+    
+    [metabigor](https://github.com/j3ssie/metabigor)
+    
+    [shodan](https://www.shodan.io/)
+    
 11. **Extracting dark web information:** Use `digital shadows`, `Flare`, `Dehashed`, and `Crackstation` to extract dark web information.
+
+    [dehashed](https://www.dehashed.com/)
+    
+    [crackstation](https://crackstation.net/)
+    
 12. **Extracting malicious reports:** Use `VirusTotal` and `Zone-h` to extract malicious reports.
+    
+    [virustotal](https://www.virustotal.com/gui/home/upload)
+
 13. **Google Dorks, GitHub, PasteBin, Wayback machine:** Use these sources to find leaked files.
 14. **Extracting Microsoft Azure Information:** Use `AADInternals`, `MXTOOLBOX`, and `Invoke-AADIntReconAsOutsider -DomainName example.com | Format-Table` to extract Microsoft Azure information.
