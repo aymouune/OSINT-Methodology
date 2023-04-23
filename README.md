@@ -230,6 +230,16 @@ This repository contains an OSINT methodology for conducting investigations on a
     [Assetfinder](https://github.com/tomnomnom/assetfinder) `assetfinder tesla.com`
     
     [GoWitness](https://github.com/sensepost/gowitness/wiki/Installation) `gowitness file  -f ./alive.txt -P ./pics —no-http`
+    
+    Exploring OSINT Frameworks :
+    
+    [recon-ng](https://github.com/lanmaster53/recon-ng)
+    
+    [maltego](https://www.maltego.com/)
+    
+    Search for strings :
+    
+    [Hunchly](https://hunch.ly/) : search for a spesific strings 
 
     
  
