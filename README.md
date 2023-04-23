@@ -170,6 +170,66 @@ This repository contains an OSINT methodology for conducting investigations on a
 12. **Extracting malicious reports:** Use `VirusTotal` and `Zone-h` to extract malicious reports.
     
     [virustotal](https://www.virustotal.com/gui/home/upload)
+    
+    [zone-h](https://www.zone-h.org/)
 
 13. **Google Dorks, GitHub, PasteBin, Wayback machine:** Use these sources to find leaked files.
+    
+    [Google Dorks](https://www.exploit-db.com/google-hacking-database)
+    
+    [PASTBIN](https://pastebin.com/)
+    
 14. **Extracting Microsoft Azure Information:** Use `AADInternals`, `MXTOOLBOX`, and `Invoke-AADIntReconAsOutsider -DomainName example.com | Format-Table` to extract Microsoft Azure information.
+    
+    [AADInternals](https://aadinternals.com/)
+ 
+15. **Automating tools**
+
+    Hunting Emails and Breached Data :
+    
+    [theHarvester](https://github.com/laramies/theHarvester) `python3 theHarvester.py -d tcm-sec.com -b all`
+    
+    [breach-parse](https://github.com/hmaverickadams/breach-parse) : A tool for parsing breached passwords
+    
+    [BREACHDIRECTORY](https://breachdirectory.org/)
+    
+    [h8mail](https://github.com/khast3x/h8mail)
+    
+    Username and Accounts :
+    
+    [whatsmyname](https://github.com/WebBreacher/WhatsMyName)
+    
+    [sherlock](https://github.com/sherlock-project/sherlock)
+    
+    Phone number OSINT :
+    
+    [phoneinfoga](https://github.com/sundowndev/phoneinfoga)
+    - phoneinfoga scan - n <number>
+    - phoneinfoga serve -p 8080 (go to http//localhost:8080)
+    
+    Social Media OSINT :
+    
+    [twint](https://github.com/twintproject/twint)
+    
+    [InstagramOSINT](https://github.com/sc1341/InstagramOSINT)
+    
+    Website OSINT :
+    
+    [Wappalyzer](https://www.wappalyzer.com/) : Extension to identify the CMS / Programming Language …
+    
+    [whatweb](https://github.com/urbanadventurer/WhatWeb)    : is a command line tool similar to wappalyzer
+    
+    [whois](https://who.is/) : website or tool 
+    
+    [httprobe](https://github.com/tomnomnom/httprobe) : check if the endpoint is alive : `cat tesla.txt | sort -u | httprobe -s -p https:443`
+    
+    [Amass](https://github.com/OWASP/Amass) `amass enum -d tesla.com`
+    
+    [Subfinder](https://github.com/projectdiscovery/subfinder) `subfinder -d tesla.com`
+    
+    [Assetfinder](https://github.com/tomnomnom/assetfinder) `assetfinder tesla.com`
+    
+    [GoWitness](https://github.com/sensepost/gowitness/wiki/Installation) `gowitness file  -f ./alive.txt -P ./pics —no-http`
+
+    
+ 
