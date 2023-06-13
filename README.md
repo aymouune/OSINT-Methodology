@@ -157,7 +157,7 @@ This repository contains an OSINT methodology for conducting investigations on a
     
 10. **Shodan and Censys results:** Use `metabigor` to gather results from `Shodan` and `Censys API (Python)`.
     
-    [metabigor](https://github.com/j3ssie/metabigor)
+    [metabigor](https://github.com/j3ssie/metabigor) After gathering a list of IPs, run the following command against them to fill in the Shodan sheet `cat ips.txt | ./metabigor ip --json | jq`
     
     [shodan](https://www.shodan.io/)
     
