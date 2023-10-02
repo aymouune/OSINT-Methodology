@@ -18,6 +18,10 @@ This repository contains an OSINT methodology for conducting investigations on a
     
     b. Advanced Search with Google:
       [Google](https://www.google.com/advanced_search)
+  
+      [Google Image](https://www.google.com/advanced_image_search)
+
+      [Google Reverse Image Search](https://www.google.com/imghp)
       
     c. Search for acquisitions and mergers in articles and news using `dnb Business Directory`:
     
@@ -31,7 +35,7 @@ This repository contains an OSINT methodology for conducting investigations on a
 
     [Open-Corporates](https://opencorporates.com/)
 
-2. **Company's domains:** To find the company's domains, use `SEO Domain Finder` and `Reverse IP Lookup`:
+3. **Company's domains:** To find the company's domains, use `SEO Domain Finder` and `Reverse IP Lookup`:
 
     [Mxtoolbox](https://mxtoolbox.com/)
 
@@ -39,7 +43,7 @@ This repository contains an OSINT methodology for conducting investigations on a
 
     site:company.com -www (google advanced search operators)
     
-3. **Company's subdomains:** Use `Sublist3r`, `Amass`, `Security Trails`, `PureDNS`, `Wayback Machine`, and `Certificate-based Censys search` to find the company's subdomains:
+4. **Company's subdomains:** Use `Sublist3r`, `Amass`, `Security Trails`, `PureDNS`, `Wayback Machine`, and `Certificate-based Censys search` to find the company's subdomains:
 
     [Securitytrails](https://securitytrails.com/)
 
@@ -61,7 +65,7 @@ This repository contains an OSINT methodology for conducting investigations on a
 
     **Subdomain's check:** Visit the subdomains to gather more information.
 
-4. **Retrieving IPs:** Use `nslookup` command on the domains and subdomains as well as some sites like :
+5. **Retrieving IPs:** Use `nslookup` command on the domains and subdomains as well as some sites like :
 
     [Centralops](https://centralops.net/co/) Domain --> DNS records
 
@@ -71,19 +75,19 @@ This repository contains an OSINT methodology for conducting investigations on a
 
     [Viewdns](https://viewdns.info/)
 
-5. **Retrieving ASN:** You can get the `ASN` number using this tool:
+6. **Retrieving ASN:** You can get the `ASN` number using this tool:
 
     [ASN Lookup](https://hackertarget.com/as-ip-lookup/)
 
-6. **Retrieving Technologies:** Use online tools to retrieve technologies such as CMS.
+7. **Retrieving Technologies:** Use online tools to retrieve technologies such as CMS.
 
     [Whatcms](https://whatcms.org/)
     
     [virustotal](https://www.virustotal.com/gui/home/upload)
 
-7. **Potentially malicious similar domains:** Use `Red Flags` tool to confirm any potentially malicious similar domains, manually confirm them, and use `Virustotal` and `Wayback Machine` to gather more information.
+8. **Potentially malicious similar domains:** Use `Red Flags` tool to confirm any potentially malicious similar domains, manually confirm them, and use `Virustotal` and `Wayback Machine` to gather more information.
 
-8. **Gathering employees information:** Use `linkedin2username`, `LinkedInt`, `CrossLinked`, `Uhoh365`, and `Apollo tool` to gather employees' names, positions, profile pictures, emails, etc.
+9. **Gathering employees information:** Use `linkedin2username`, `LinkedInt`, `CrossLinked`, `Uhoh365`, and `Apollo tool` to gather employees' names, positions, profile pictures, emails, etc.
 
     A. Gathering employees linkedin accounts :
     
