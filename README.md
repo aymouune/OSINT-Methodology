@@ -45,7 +45,9 @@ This repository contains an OSINT methodology for conducting investigations on a
     
 4. **Company's subdomains:** Use `Sublist3r`, `Amass`, `Security Trails`, `PureDNS`, `Wayback Machine`, and `Certificate-based Censys search` to find the company's subdomains:
 
-    [Securitytrails](https://securitytrails.com/)
+   [Netcraft](https://searchdns.netcraft.com/)
+
+   [Securitytrails](https://securitytrails.com/)
 
     [Wayback Machine](http://web.archive.org/)
 
@@ -65,7 +67,7 @@ This repository contains an OSINT methodology for conducting investigations on a
 
     **Subdomain's check:** Visit the subdomains to gather more information.
 
-5. **Retrieving IPs:** Use `nslookup` command on the domains and subdomains as well as some sites like :
+6. **Retrieving IPs:** Use `nslookup` command on the domains and subdomains as well as some sites like :
 
     [Centralops](https://centralops.net/co/) Domain --> DNS records
 
@@ -75,19 +77,19 @@ This repository contains an OSINT methodology for conducting investigations on a
 
     [Viewdns](https://viewdns.info/)
 
-6. **Retrieving ASN:** You can get the `ASN` number using this tool:
+7. **Retrieving ASN:** You can get the `ASN` number using this tool:
 
     [ASN Lookup](https://hackertarget.com/as-ip-lookup/)
 
-7. **Retrieving Technologies:** Use online tools to retrieve technologies such as CMS.
+8. **Retrieving Technologies:** Use online tools to retrieve technologies such as CMS.
 
     [Whatcms](https://whatcms.org/)
     
     [virustotal](https://www.virustotal.com/gui/home/upload)
 
-8. **Potentially malicious similar domains:** Use `Red Flags` tool to confirm any potentially malicious similar domains, manually confirm them, and use `Virustotal` and `Wayback Machine` to gather more information.
+9. **Potentially malicious similar domains:** Use `Red Flags` tool to confirm any potentially malicious similar domains, manually confirm them, and use `Virustotal` and `Wayback Machine` to gather more information.
 
-9. **Gathering employees information:** Use `linkedin2username`, `LinkedInt`, `CrossLinked`, `Uhoh365`, and `Apollo tool` to gather employees' names, positions, profile pictures, emails, etc.
+10. **Gathering employees information:** Use `linkedin2username`, `LinkedInt`, `CrossLinked`, `Uhoh365`, and `Apollo tool` to gather employees' names, positions, profile pictures, emails, etc.
 
     A. Gathering employees linkedin accounts :
     
@@ -159,35 +161,35 @@ This repository contains an OSINT methodology for conducting investigations on a
     [infobel](https://www.infobel.com/fr/world)
     
     
-10. **Shodan and Censys results:** Use `metabigor` to gather results from `Shodan` and `Censys API (Python)`.
+11. **Shodan and Censys results:** Use `metabigor` to gather results from `Shodan` and `Censys API (Python)`.
     
     [metabigor](https://github.com/j3ssie/metabigor) After gathering a list of IPs, run the following command against them to fill in the Shodan sheet `cat ips.txt | ./metabigor ip --json | jq`
     
     [shodan](https://www.shodan.io/)
     
-11. **Extracting dark web information:** Use `digital shadows`, `Flare`, `Dehashed`, and `Crackstation` to extract dark web information.
+12. **Extracting dark web information:** Use `digital shadows`, `Flare`, `Dehashed`, and `Crackstation` to extract dark web information.
 
     [dehashed](https://www.dehashed.com/)
     
     [crackstation](https://crackstation.net/)
     
-12. **Extracting malicious reports:** Use `VirusTotal` and `Zone-h` to extract malicious reports.
+13. **Extracting malicious reports:** Use `VirusTotal` and `Zone-h` to extract malicious reports.
     
     [virustotal](https://www.virustotal.com/gui/home/upload)
     
     [zone-h](https://www.zone-h.org/)
 
-13. **Google Dorks, GitHub, PasteBin, Wayback machine:** Use these sources to find leaked files.
+14. **Google Dorks, GitHub, PasteBin, Wayback machine:** Use these sources to find leaked files.
     
     [Google Dorks](https://www.exploit-db.com/google-hacking-database)
     
     [PASTBIN](https://pastebin.com/)
     
-14. **Extracting Microsoft Azure Information:** Use `AADInternals`, `MXTOOLBOX`, and `Invoke-AADIntReconAsOutsider -DomainName example.com | Format-Table` to extract Microsoft Azure information.
+15. **Extracting Microsoft Azure Information:** Use `AADInternals`, `MXTOOLBOX`, and `Invoke-AADIntReconAsOutsider -DomainName example.com | Format-Table` to extract Microsoft Azure information.
     
     [AADInternals](https://aadinternals.com/)
  
-15. **Automating tools**
+16. **Automating tools**
 
     Hunting Emails and Breached Data :
     
