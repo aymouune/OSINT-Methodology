@@ -47,6 +47,10 @@ This repository contains an OSINT methodology for conducting investigations on a
 
    [Netcraft](https://searchdns.netcraft.com/)
 
+   [ThreatCrowd](http://ci-www.threatcrowd.org/)
+
+   [dnsdumpster](https://dnsdumpster.com/)
+
    [Securitytrails](https://securitytrails.com/)
 
     [Wayback Machine](http://web.archive.org/)
