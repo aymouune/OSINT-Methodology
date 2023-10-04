@@ -104,6 +104,8 @@ This repository contains an OSINT methodology for conducting investigations on a
 
     [CrossLinked](https://github.com/m8sec/CrossLinked) : CrossLinked is a LinkedIn enumeration tool that uses search engine scraping to collect valid employee names from an organization. This technique provides accurate results without the use of API keys, credentials, or accessing LinkedIn directly!
 
+    [theHarvester](https://github.com/laramies/theHarvester) : `theHarvester -d microsoft -l 200 -b linkedin`
+
     B. Gathering emails :
     
     [Hunter](https://hunter.io/)
@@ -166,35 +168,35 @@ This repository contains an OSINT methodology for conducting investigations on a
     [infobel](https://www.infobel.com/fr/world)
     
     
-11. **Shodan and Censys results:** Use `metabigor` to gather results from `Shodan` and `Censys API (Python)`.
+12. **Shodan and Censys results:** Use `metabigor` to gather results from `Shodan` and `Censys API (Python)`.
     
     [metabigor](https://github.com/j3ssie/metabigor) After gathering a list of IPs, run the following command against them to fill in the Shodan sheet `cat ips.txt | ./metabigor ip --json | jq`
     
     [shodan](https://www.shodan.io/)
     
-12. **Extracting dark web information:** Use `digital shadows`, `Flare`, `Dehashed`, and `Crackstation` to extract dark web information.
+13. **Extracting dark web information:** Use `digital shadows`, `Flare`, `Dehashed`, and `Crackstation` to extract dark web information.
 
     [dehashed](https://www.dehashed.com/)
     
     [crackstation](https://crackstation.net/)
     
-13. **Extracting malicious reports:** Use `VirusTotal` and `Zone-h` to extract malicious reports.
+14. **Extracting malicious reports:** Use `VirusTotal` and `Zone-h` to extract malicious reports.
     
     [virustotal](https://www.virustotal.com/gui/home/upload)
     
     [zone-h](https://www.zone-h.org/)
 
-14. **Google Dorks, GitHub, PasteBin, Wayback machine:** Use these sources to find leaked files.
+15. **Google Dorks, GitHub, PasteBin, Wayback machine:** Use these sources to find leaked files.
     
     [Google Dorks](https://www.exploit-db.com/google-hacking-database)
     
     [PASTBIN](https://pastebin.com/)
     
-15. **Extracting Microsoft Azure Information:** Use `AADInternals`, `MXTOOLBOX`, and `Invoke-AADIntReconAsOutsider -DomainName example.com | Format-Table` to extract Microsoft Azure information.
+16. **Extracting Microsoft Azure Information:** Use `AADInternals`, `MXTOOLBOX`, and `Invoke-AADIntReconAsOutsider -DomainName example.com | Format-Table` to extract Microsoft Azure information.
     
     [AADInternals](https://aadinternals.com/)
  
-16. **Automating tools**
+17. **Automating tools**
 
     Hunting Emails and Breached Data :
     
