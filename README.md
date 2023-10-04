@@ -17,6 +17,7 @@ This repository contains an OSINT methodology for conducting investigations on a
       [Baidu](http://baidu.com/)
     
     b. Advanced Search with Google:
+   
       [Google](https://www.google.com/advanced_search)
   
       [Google Image](https://www.google.com/advanced_image_search)
@@ -136,7 +137,7 @@ This repository contains an OSINT methodology for conducting investigations on a
 
     [Reddit](https://www.reddit.com/user/) `reddit.com/user/username/` : replace the `username` with your username
     
-    E. Gathering  employees' inforamtions : 
+    E. Gathering  employees' inforamtions :  `pipl`, `Intelius`, `BeenVerified`, `Whitepages`, and `PeekYou`.
     
     Only people living in USA :
 
