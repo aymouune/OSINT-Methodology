@@ -127,7 +127,8 @@ This repository contains an OSINT methodology for conducting investigations on a
     [PowerShell library AADInternals](https://aadinternals.com/)
     
     - **For one user :** `Install-Module AADInternals` `Import-Module AADInternals`
-    `Invoke-AADIntUserEnumerationAsOutsider -UserName "user@company.com"`
+
+        `Invoke-AADIntUserEnumerationAsOutsider -UserName "user@company.com"`
 
     - **For list of users :** `Get-Content .\users.txt | Invoke-AADIntUserEnumerationAsOutsider -Method Normal` 
 
