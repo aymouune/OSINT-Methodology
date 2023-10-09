@@ -126,7 +126,8 @@ This repository contains an OSINT methodology for conducting investigations on a
 
     [PowerShell library AADInternals](https://aadinternals.com/)
     
-    - **For one user :** `Invoke-AADIntUserEnumerationAsOutsider -UserName "user@company.com"`
+    - **For one user :** `Install-Module AADInternals` `Import-Module AADInternals`
+    `Invoke-AADIntUserEnumerationAsOutsider -UserName "user@company.com"`
 
     - **For list of users :** `Get-Content .\users.txt | Invoke-AADIntUserEnumerationAsOutsider -Method Normal` 
 
@@ -192,7 +193,7 @@ This repository contains an OSINT methodology for conducting investigations on a
     
     [PASTBIN](https://pastebin.com/)
     
-16. **Extracting Microsoft Azure Information:** Use `AADInternals`, `MXTOOLBOX`, and `Invoke-AADIntReconAsOutsider -DomainName example.com | Format-Table` to extract Microsoft Azure information.
+16. **Extracting Microsoft Azure Information:** Use `AADInternals`, `MXTOOLBOX`, and `Install-Module AADInternals` `Import-Module AADInternals` `Invoke-AADIntReconAsOutsider -DomainName example.com | Format-Table` to extract Microsoft Azure information.
     
     [AADInternals](https://aadinternals.com/)
  
